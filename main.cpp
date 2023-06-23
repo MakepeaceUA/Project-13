@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 // Задание 1
@@ -9,30 +8,16 @@ using namespace std;
 
     //int MoneyInMonth[6];
     //int count = 0;
-    // Способ 1
-    //cout << "Введите прибыль за первый месяц:\n";
-    //cin >> MoneyInMonth[0];
-    //cout << "Введите прибыль за второй месяц:\n";
-    //cin >> MoneyInMonth[1];
-    //cout << "Введите прибыль за третий месяц:\n";
-    //cin >> MoneyInMonth[2];
-    //cout << "Введите прибыль за четвёртый месяц:\n";
-    //cin >> MoneyInMonth[3];
-    //cout << "Введите прибыль за пятый месяц:\n";
-    //cin >> MoneyInMonth[4];
-    //cout << "Введите прибыль за шестой месяц:\n";
-    //cin >> MoneyInMonth[5];
+    //int sum = 0;
 
-   //cout << MoneyInMonth[0] + MoneyInMonth[1] + MoneyInMonth[2] + MoneyInMonth[3] + MoneyInMonth[4] + MoneyInMonth[5];
-
-  // Способ 2
   //for (int i = 0; i <= 5; i++)
   //{
   //  count++;
   //  cout << "Введите прибыль за " << count << " месяц:\n";
   //  cin >> MoneyInMonth[i];
+  //  sum += MoneyInMonth[i];
   //}
-  //cout << MoneyInMonth[0] + MoneyInMonth[1] + MoneyInMonth[2] + MoneyInMonth[3] + MoneyInMonth[4] + MoneyInMonth[5];
+  //  cout << "Прибыль за 6 месяцев: " << sum;
 //}
 
 
@@ -41,28 +26,17 @@ using namespace std;
 // Задание 2
 //int main() 
 //{
-  //int massive[10];
+//  int massive[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-  //massive[0] = 1;
-  //massive[1] = 2;
-  //massive[2] = 3;
-  //massive[3] = 4;
-  //massive[4] = 5;
-  //massive[5] = 6;
-  //massive[6] = 7;
-  //massive[7] = 8;
-  //massive[8] = 9;
-  //massive[9] = 10;
-
-  //for (int i = 0;i <= 9;i++) 
-  //{
-  //  cout << massive[i] << " ";
-  //}
-  //cout << "\n";
-  //for (int j = 9;j >= 0;j--) 
-  //{
-  //  cout << massive[j] << " ";
-  //}
+//  for (int i = 0;i <= 9;i++) 
+//  {
+//    cout << massive[i] << " ";
+//  }
+//  cout << "\n";
+//  for (int j = 9;j >= 0;j--) 
+//  {
+//    cout << massive[j] << " ";
+//  }
 //}
 
 
@@ -75,15 +49,16 @@ using namespace std;
 
 //  int Length[5];
 //  int count = 0;
+//  int Perimeter = 0;
 
 //  for (int i = 0; i <= 4; i++)
 //  {
 //    count++;
 //    cout << "Введите длину " << count << " сторону пятиугольника:\n";
 //    cin >> Length[i];
+//    Perimeter += Length[i];
 //  }
-//  cout << "Периметр пятиугольника:";
-//  cout << Length[0] + Length[1] + Length[2] + Length[3] + Length[4];
+//    cout << "Периметр пятиугольника:" << Perimeter;
 //}
 
 
